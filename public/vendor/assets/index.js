@@ -57,19 +57,21 @@ navbar.innerHTML = `
 const section_home = document.getElementById('home');
 
 section_home.innerHTML = `
-<div class="container">
-    <div class="row">
-        <div class="col-7 d-flex justify-content-center align-items-center flex-column">
-            <p class="im">I'm <span class="name">Hanz Menzi;</span></p>
-            <p>Php Develop & Freelancer programmer.</p>
-        </div>
-        
-        <div class="col-5 d-flex justify-content-center align-items-center">
-            <img src="${images[6].path}" class="img-profile img-fluid" alt="${images[6].name}">
-        </div>
+<section id="section_home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-7 d-flex flex-column justify-content-center text-center text-md-left">
+        <p class="im">I'm <span class="name">Hanz Menzi;</span></p>
+        <p>Php Developer & Freelancer Programmer.</p>
+      </div>
 
+      <div class="col-12 col-md-5 d-flex justify-content-center">
+        <img src="${images[6].path}" class="img-profile img-fluid" alt="${images[6].name}">
+      </div>
     </div>
-</div>
+  </div>
+</section>
+
 `;
 
 //section about
