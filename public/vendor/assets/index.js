@@ -1,23 +1,23 @@
 console.log('im here');
 
 const images = [
-    { name: 'profile', path: '/public/vendor/img/temp-profile.png' },
-    { name: 'profile', path: '/public/vendor/img/remove-bg.png' },
-    { name: 'profile', path: '/public/vendor/img/new-profile.png' },
-    { name: 'profile', path: '/public/vendor/img/image.png' },
-    { name: 'profile', path: '/public/vendor/img/image-removebg-preview.png' },
-    { name: 'profile', path: '/public/vendor/img/logo.png' },
-    { name: 'profile', path: '/public/vendor/img/main-logo.png' }
+    { name: 'profile', path: './public/vendor/img/temp-profile.png' },
+    { name: 'profile', path: './public/vendor/img/remove-bg.png' },
+    { name: 'profile', path: './public/vendor/img/new-profile.png' },
+    { name: 'profile', path: './public/vendor/img/image.png' },
+    { name: 'profile', path: './public/vendor/img/image-removebg-preview.png' },
+    { name: 'profile', path: './public/vendor/img/logo.png' },
+    { name: 'profile', path: './public/vendor/img/main-logo.png' }
     // { name: 'profile', path: '/public/vendor/img/yellow-removebg-preview.png' },
     // { name: 'profile', path: '/public/vendor/img/black-removebg-preview.png' }
 ];
 
 const skills =[
-    {name: 'Html css', path: '/public/vendor/img/htmlCSS.png'},
-    {name: 'Mysql', path: '/public/vendor/img/sql.png'},
-    {name: 'Bootstrap', path: '/public/vendor/img/bootstrap.png'},
-    {name: 'JavaScript', path: '/public/vendor/img/javascript.png'},
-    {name: 'PHP', path: '/public/vendor/img/php.png'},
+    {name: 'Html css', path: './public/vendor/img/htmlCSS.png'},
+    {name: 'Mysql', path: './public/vendor/img/sql.png'},
+    {name: 'Bootstrap', path: './public/vendor/img/bootstrap.png'},
+    {name: 'JavaScript', path: './public/vendor/img/javascript.png'},
+    {name: 'PHP', path: './public/vendor/img/php.png'},
 ];
 
 const navbar = document.querySelector('nav');
